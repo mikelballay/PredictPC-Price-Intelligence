@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Environment variables
+.env
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Database
+*.db
+*.sqlite3
+data/predictpc.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Distribution
+build/
+dist/
+*.egg-info/
