@@ -90,8 +90,10 @@ predictpc/
     KEEPA_API_KEY=your_keepa_api_key_here
     ```
 
-4.  **Data Ingestion (Populate Database)**
-    Fetch historical prices from Keepa for the products defined in the catalog:
+4.  **Data Ingestion (Optional)**
+    *Note: The project comes with a sample database (`data/predictpc.db`). You can skip this step to run a demo immediately.*
+    
+    To fetch fresh data (requires API Key):
     ```bash
     python -m src.data.fetch_prices
     ```
