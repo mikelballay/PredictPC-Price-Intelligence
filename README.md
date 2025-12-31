@@ -90,7 +90,13 @@ predictpc/
     KEEPA_API_KEY=your_keepa_api_key_here
     ```
 
-4.  **Launch**
+4.  **Data Ingestion (Populate Database)**
+    Fetch historical prices from Keepa for the products defined in the catalog:
+    ```bash
+    python -m src.data.fetch_prices
+    ```
+
+5.  **Launch**
     ```bash
     streamlit run src/dashboard/app.py
     ```
